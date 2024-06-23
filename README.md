@@ -1,1 +1,2 @@
 # landing-page
+The goal of this project is to get familiar with HTML and CSS by reproducing a landing page that TOP provided me. So basically getting use to positioning elements using different CSS properties.
