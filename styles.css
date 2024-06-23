@@ -6,8 +6,8 @@
   padding: 0;
 }
 body {
-    background-color: #1f2937;
-    font-family: Arial, Helvetica, sans-serif;
+  background-color: #1f2937;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header {
@@ -16,7 +16,6 @@ header {
   background-color: #1f2937;
   justify-content: center;
   margin: 0 auto;
-  
 }
 
 .header-logo {
@@ -34,47 +33,90 @@ header {
 .links a {
   color: #f9faf8;
   font-weight: 500;
+  font-size: 14px;
   text-decoration: none;
 }
 .hero-main {
-    background-color: #1f2937;
-    height: 250px;
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    color: #f9faf8;
-    margin-top: 50px;
+  background-color: #1f2937;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  color: #f9faf8;
+  margin-top: 50px;
 }
 
 .text-content {
-width: 360px;
-height: auto;
+  width: 360px;
+  height: auto;
 }
 
 .text-content h1 {
-    font-size: 48px;
-    font-weight: 900;
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .text-content p {
-    font-size: 14px;
-    font-weight: 100;
-    margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 100;
+  margin-bottom: 10px;
 }
 
 .placeholder-img {
-    width: 350px;
+  width: 370px;
 }
 .info {
-    height: 250px;
-    background-color: #f9faf8;
+  height: auto;
+  background-color: #f9faf8;
+  text-align: center;
+  color: #1f2937;
+  padding-bottom: 50px;
+}
+
+.info h2 {
+  font-size: 36px;
+  font-weight: 900;
+  padding: 20px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.container div {
+  width: 160px;
+}
+
+.container div img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #3882f6;
+}
+
+.container div p {
+  font-size: 14px;
 }
 
 .button-top {
-    width: 75px;
-    height: 25px;
-    border: none;
-    border-radius: 6px;
-    background-color: #3882f6;
-    color: #f9faf8;
+  width: 75px;
+  height: 25px;
+  border: none;
+  border-radius: 6px;
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+.button-bot {
+  width: 75px;
+  height: 25px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #f9faf8;
+  border-radius: 6px;
+  background-color: #3882f6;
+  color: #f9faf8;
 }
