@@ -109,6 +109,7 @@ header {
   border-radius: 6px;
   background-color: #3882f6;
   color: #f9faf8;
+  cursor: pointer;
 }
 .button-bot {
   width: 75px;
@@ -119,4 +120,68 @@ header {
   border-radius: 6px;
   background-color: #3882f6;
   color: #f9faf8;
+  cursor: pointer;
+}
+.quote {
+  height: 300px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-text {
+  width: 665px;
+  font-size: 30px;
+  font-weight: light;
+  font-style: italic;
+  text-align: left;
+  position: relative;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.thor {
+  font-weight: bold;
+  margin-left: 500px;
+}
+
+.call-to-action {
+  height: 200px;
+  background-color: #f9faf8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-cta {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  padding: 25px 100px;
+}
+.cta-text {
+  font-weight: bold;
+}
+.signup {
+  font-size: 14px;
+}
+footer {
+  font-size: 12px;
+  text-align: center;
+  color: #f9faf8;
+  padding: 15px;
+}
+
+footer p a {
+  color: #f9faf8;
+  text-decoration: none;
 }
